@@ -1,0 +1,71 @@
+body {
+    font-family: 'Nobile', sans-serif;
+    margin: 0;
+}
+
+header {
+    margin: 0 1.25%;
+}
+
+h1 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 15px 0 5px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 500px;
+    max-width: 22.5%;
+    border: 1px solid black;
+    margin: 15px 1.25%;
+    box-sizing: border-box;
+}
+
+.image {
+    background: gray;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 992px) {
+    .card {
+        max-width: 46%;
+        margin: 15px 2%;
+    }
+
+    header {
+        margin: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        max-width: 100%;
+        margin: 15px 2.5%;
+    }
+
+    header {
+        margin: 0 2.5%;
+    }
+}
+

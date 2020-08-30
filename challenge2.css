@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: darkblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: cornsilk;
+    margin: 10px;
+
+}
+
+
